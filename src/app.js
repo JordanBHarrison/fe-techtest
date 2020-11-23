@@ -1,6 +1,10 @@
-// source goes here
-const app = function() {
-  console.log('hello from app!');
-};
+import React from 'react'
+import { render } from 'react-dom'
+import MultiplicationHelper from './components/MultiplicationHelper'
 
-export default app;
+// source goes here
+export default () => {
+  const panelsCount = 144
+
+  render(<MultiplicationHelper panelsCount={panelsCount} />, document.querySelector('#root'))
+}

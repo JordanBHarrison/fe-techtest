@@ -9,11 +9,18 @@
   },
   "author": "",
   "license": "ISC",
+  "devDependencies": {
+    "enzyme": "^3.11.0"
+  },
   "dependencies": {
     "@babel/core": "7.7.4",
     "@babel/preset-env": "7.7.4",
+    "@babel/preset-react": "^7.12.7",
+    "babel-loader": "^8.2.1",
     "css-loader": "3.2.0",
     "jest": "24.9.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
     "style-loader": "1.0.0",
     "webpack": "4.41.2",
     "webpack-cli": "3.3.10",
@@ -28,7 +35,8 @@
             "esmodules": true
           }
         }
-      ]
+      ],
+      "@babel/preset-react"
     ]
   },
   "jest": {

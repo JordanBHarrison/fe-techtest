@@ -1,7 +1,8 @@
 import app from '../src/app';
 
-describe('app', function() {
-  it('does nothing', function() {
-    expect(true).toBe(true);
-  });
+describe('app', () => {
+  // it('renders a MultiplicationHelper component', () => {
+
+  //   expect(true).toBe(true);
+  // });
 });

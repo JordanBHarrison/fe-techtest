@@ -66,3 +66,14 @@ __Criteria for assessment__: Important things that will be assessed are:
 * Meeting the requirements
 
 The test won’t be assessed on design at all, so don’t worry how it looks.
+
+## Libraries used
+List of libraries used with reasoning:
+
+* react - I Decided to use React framework for speed of development and since it's relevant to the position that i'm applying for
+* @babel/babel-preset-react - This babel preset is required to allow babel to interpret react code
+* sass - I decided to use the Sass css preprocessor just for simplicity of sharing mediaQuery breakpoint values and other css variables to be used in different components
+* sass-loader - needed to allow webpack to read (.scss or .sass files) 
+* enzyme - Used Enzyme to allow for shallow rendering of components to ensure they are tested in complete isolation without the risk of child components affecting testing
+* classnames - Just for simplicity of combining classes which works well with the BEM naming convention i'm using
+

@@ -19,6 +19,12 @@ $maxTabletWidth: 1024px;
 $multiplicationHelperMaxWidth: 800px;
 
 // NumberPanel
+$numberPanelFontColour: #636363;
+$numberPanelMultipleFontColour: #636363;
+$numberPanelSelectedFontColour: #fff;
+$numberPanelBackground: #e6e6e6;
+$multipleHighlightBackground: #99ccd3;
+$selectedHighlightBackground: #464545;
 
 @mixin flex3 {
   flex: 1 0 26%;

@@ -3,10 +3,10 @@
 .number-panel {
   display: flex;
   margin: 15px;
-  background: #e6e6e6;
+  background: variables.$numberPanelBackground;
   border: 1px solid #a9a9a9;
   border-radius: 5px;
-  color: #636363;
+  color: variables.$numberPanelFontColour;
   justify-content: center;
   @include variables.flex1;
 
@@ -16,6 +16,16 @@
 
   @include variables.desktop {
     @include variables.flex3;
+  }
+
+  &--is-multiple {
+    background: variables.$multipleHighlightBackground;
+    color: variables.$numberPanelMultipleFontColour
+  }
+
+  &--is-selected {
+    background: variables.$selectedHighlightBackground;
+    color: variables.$numberPanelSelectedFontColour;
   }
 
   &__label {

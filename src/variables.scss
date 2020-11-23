@@ -1,0 +1,33 @@
+
+// media queries and breakpoint definitions
+$maxMobileWidth: 767px;
+$maxTabletWidth: 1024px;
+
+@mixin desktop {
+  @media screen and (min-width: $maxTabletWidth) {
+    @content
+  }
+};
+
+@mixin tablet {
+  @media screen and (min-width: $maxMobileWidth) and (max-width: $maxTabletWidth) {
+    @content
+  }
+};
+
+// MultiplicationHelper
+$multiplicationHelperMaxWidth: 800px;
+
+// NumberPanel
+
+@mixin flex3 {
+  flex: 1 0 26%;
+}
+
+@mixin flex2 {
+  flex: 1 0 34%;
+}
+
+@mixin flex1 {
+  flex: 1 0 51%;
+}

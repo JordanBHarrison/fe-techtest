@@ -1,0 +1,9 @@
+@use '../../variables.scss';
+
+.multiplication-helper {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: variables.$multiplicationHelperMaxWidth;
+  margin: 0 auto;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

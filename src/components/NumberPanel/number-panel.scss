@@ -1,0 +1,28 @@
+@use '../../variables.scss';
+
+.number-panel {
+  display: flex;
+  margin: 15px;
+  background: #e6e6e6;
+  border: 1px solid #a9a9a9;
+  border-radius: 5px;
+  color: #636363;
+  justify-content: center;
+  @include variables.flex1;
+
+  @include variables.tablet {
+    @include variables.flex2;
+  }
+
+  @include variables.desktop {
+    @include variables.flex3;
+  }
+
+  &__label {
+    padding: 50% 0 50%;
+    height: 0;
+    font-size: 32px;
+    display: flex;
+    align-items: center;
+  }
+}
